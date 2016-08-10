@@ -1,12 +1,6 @@
 [submodule "GZIP"]
 	path = GZIP
 	url = https://github.com/nicklockwood/GZIP.git
-[submodule "AFNetworking"]
-	path = AFNetworking
-	url = git@github.com:AFNetworking/AFNetworking.git
-[submodule "GCDWebServer"]
-	path = GCDWebServer
-	url = git@github.com:swisspol/GCDWebServer.git
 [submodule "OpenSSL-for-iPhone"]
 	path = OpenSSL-for-iPhone
 	url = git@github.com:clowwindy/OpenSSL-for-iPhone.git
