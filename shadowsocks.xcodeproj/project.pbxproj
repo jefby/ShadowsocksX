@@ -10,7 +10,6 @@
 		2324BA6E1D008AE900CAED8D /* SWBApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2324BA6D1D008AE900CAED8D /* SWBApplication.m */; };
 		6205309618D4443E00887D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AA16CF6BCB003D96B4 /* Foundation.framework */; };
 		6205309918D4443E00887D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205309818D4443E00887D3E /* main.m */; };
-		620530A518D4444E00887D3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629AC93F18B49C33001D2771 /* SystemConfiguration.framework */; };
 		620530BA18D44A2700887D3E /* shadowsocks_sysconf in Resources */ = {isa = PBXBuildFile; fileRef = 6205309518D4443E00887D3E /* shadowsocks_sysconf */; };
 		620530BE18D44FB600887D3E /* install_helper.sh in Resources */ = {isa = PBXBuildFile; fileRef = 620530BD18D44FB600887D3E /* install_helper.sh */; };
 		622BE4E618B7307200F22683 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 622BE4E418B7307200F22683 /* menu_icon@2x.png */; };
@@ -21,32 +20,31 @@
 		6232047818C08E2A001A30B9 /* ConfigWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6232047A18C08E2A001A30B9 /* ConfigWindow.xib */; };
 		625E5BBA19EA350F007A5124 /* QRCodeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625E5BB919EA350F007A5124 /* QRCodeWindow.xib */; };
 		625E5BBD19EA36D2007A5124 /* SWBQRCodeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625E5BBC19EA36D2007A5124 /* SWBQRCodeWindowController.m */; };
-		625E5BBE19EA3855007A5124 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A6E5618B4887000493BBC /* WebKit.framework */; };
 		625E5BC119EA3A43007A5124 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 625E5BBF19EA3A43007A5124 /* jquery.min.js */; };
 		625E5BC219EA3A43007A5124 /* qrcode.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 625E5BC019EA3A43007A5124 /* qrcode.min.js */; };
 		625E5BC519EA3A6B007A5124 /* qrcode.htm in Resources */ = {isa = PBXBuildFile; fileRef = 625E5BC319EA3A6B007A5124 /* qrcode.htm */; };
-		627A6DF918B47E9300493BBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A6DF818B47E9300493BBC /* Cocoa.framework */; };
 		627A6E0318B47E9300493BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627A6E0118B47E9300493BBC /* InfoPlist.strings */; };
 		627A6E0518B47E9300493BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A6E0418B47E9300493BBC /* main.m */; };
 		627A6E0C18B47E9300493BBC /* SWBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A6E0B18B47E9300493BBC /* SWBAppDelegate.m */; };
 		627A6E1118B47E9300493BBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627A6E1018B47E9300493BBC /* Images.xcassets */; };
-		627A6E3F18B47F5400493BBC /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A6E3E18B47F5400493BBC /* libcrypto.dylib */; };
 		627A6E4118B47FAE00493BBC /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 628693EE16DA2815008B1A26 /* encrypt.c */; };
 		627A6E4218B47FAE00493BBC /* table.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD119B175E3E17008C4D0C /* table.m */; };
 		627A6E4318B47FAE00493BBC /* local.m in Sources */ = {isa = PBXBuildFile; fileRef = 628693F016DA2816008B1A26 /* local.m */; };
 		627A6E4418B47FAE00493BBC /* ev.c in Sources */ = {isa = PBXBuildFile; fileRef = 628693FD16DA2983008B1A26 /* ev.c */; };
 		628C91BD1A07AA5800BA1566 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 628C91BC1A07AA5800BA1566 /* Profile.m */; };
 		628C91C41A07AB4500BA1566 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 628C91C31A07AB4500BA1566 /* Configuration.m */; };
-		628C91C61A07B6C800BA1566 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628C91C51A07B6C800BA1566 /* QuartzCore.framework */; };
 		629AC93318B49341001D2771 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 629AC93218B49341001D2771 /* Application.xib */; };
 		62E27E5518C1D03D0086033D /* proxy.pac.gz in Resources */ = {isa = PBXBuildFile; fileRef = 62E27E5318C1D03D0086033D /* proxy.pac.gz */; };
 		62E27E5A18C1D0CF0086033D /* GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E27E5818C1D0CF0086033D /* GZIP.m */; };
-		62E27E5E18C1D1000086033D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E27E5D18C1D1000086033D /* libz.dylib */; };
 		62E27E6418C1F1E30086033D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EB1896EFEA137F75386005D4 /* LICENSE */; };
-		62E2E1991A5AB21E00C9A2E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E2E1981A5AB21E00C9A2E1 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		62E2E19B1A5AB23700C9A2E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E2E19A1A5AB23700C9A2E1 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		62E2E19D1A5ABE5C00C9A2E1 /* abp.js in Resources */ = {isa = PBXBuildFile; fileRef = 62E2E19C1A5ABE5C00C9A2E1 /* abp.js */; };
-		E59404A643F67542EB34EBC4 /* libPods-ShadowsocksX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40FE8E4738678466BF81CD0 /* libPods-ShadowsocksX.a */; };
+		9CB474021DA91C5600FF2719 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474011DA91C5600FF2719 /* QuartzCore.framework */; };
+		9CB474041DA91C5F00FF2719 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474031DA91C5F00FF2719 /* Cocoa.framework */; };
+		9CB474061DA91C6800FF2719 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474051DA91C6800FF2719 /* WebKit.framework */; };
+		9CB474081DA91C7100FF2719 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474071DA91C7100FF2719 /* Security.framework */; };
+		9CB4740A1DA91C7A00FF2719 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474091DA91C7A00FF2719 /* SystemConfiguration.framework */; };
+		9CC3FCB01DAA2B910092F392 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3FCAF1DAA2B910092F392 /* openssl.framework */; };
+		9CC3FCB21DAA42280092F392 /* libPods-ShadowsocksX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3FCB11DAA42280092F392 /* libPods-ShadowsocksX.a */; };
 		EB18906527B59E4F6A70A14A /* ShadowsocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1897A89055A4C2CFD81AF8 /* ShadowsocksRunner.m */; };
 		EB1897A04CF0382A754FE700 /* SWBConfigWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1895348E32ABA4F4F86742 /* SWBConfigWindowController.m */; };
 		EB1899E6974F61B38B2FFD2C /* ProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1892B5027A6B1F1E2CDC12 /* ProfileManager.m */; };
@@ -65,7 +63,6 @@
 /* Begin PBXFileReference section */
 		07A4F81C4C5FEFA88FDDA7CC /* Pods-ShadowsocksX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowsocksX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShadowsocksX/Pods-ShadowsocksX.debug.xcconfig"; sourceTree = "<group>"; };
 		0F1ACF09F09560649B09DD2C /* Pods-ShadowsocksX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowsocksX.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShadowsocksX/Pods-ShadowsocksX.release.xcconfig"; sourceTree = "<group>"; };
-		12844C978A2DC27AE84AC5C2 /* libPods-shadowsocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shadowsocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2324BA6C1D008AE900CAED8D /* SWBApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBApplication.h; sourceTree = "<group>"; };
 		2324BA6D1D008AE900CAED8D /* SWBApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBApplication.m; sourceTree = "<group>"; };
 		36E9CC077F419E18C4FE97A1 /* Pods-libshadowsocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libshadowsocks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libshadowsocks/Pods-libshadowsocks.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +100,6 @@
 		6274847118B1FD6F00A9CDF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6274847318B1FD7900A9CDF0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		627A6DF718B47E9300493BBC /* ShadowsocksX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowsocksX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		627A6DF818B47E9300493BBC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		627A6DFB18B47E9300493BBC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		627A6DFC18B47E9300493BBC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		627A6DFD18B47E9300493BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,13 +111,9 @@
 		627A6E0A18B47E9300493BBC /* SWBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWBAppDelegate.h; sourceTree = "<group>"; };
 		627A6E0B18B47E9300493BBC /* SWBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWBAppDelegate.m; sourceTree = "<group>"; };
 		627A6E1018B47E9300493BBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		627A6E1718B47E9300493BBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		627A6E1E18B47E9300493BBC /* ShadowsocksXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowsocksXTests-Info.plist"; sourceTree = "<group>"; };
 		627A6E2018B47E9300493BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		627A6E2218B47E9300493BBC /* ShadowsocksXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksXTests.m; sourceTree = "<group>"; };
-		627A6E3C18B47F4700493BBC /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libssl.dylib; sourceTree = DEVELOPER_DIR; };
-		627A6E3E18B47F5400493BBC /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
-		627A6E5618B4887000493BBC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		628693EA16DA26E2008B1A26 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		628693EE16DA2815008B1A26 /* encrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encrypt.c; sourceTree = "<group>"; };
 		628693EF16DA2816008B1A26 /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt.h; sourceTree = "<group>"; };
@@ -135,33 +127,33 @@
 		628C91BC1A07AA5800BA1566 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 		628C91C21A07AB4500BA1566 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
 		628C91C31A07AB4500BA1566 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
-		628C91C51A07B6C800BA1566 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		629AC93218B49341001D2771 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
-		629AC93918B49B56001D2771 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		629AC93B18B49B69001D2771 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
-		629AC93D18B49B97001D2771 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		629AC93F18B49C33001D2771 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		62CD1199175E3BD7008C4D0C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "OpenSSL-for-iPhone/lib/libcrypto.a"; sourceTree = "<group>"; };
 		62CD119B175E3E17008C4D0C /* table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = table.m; sourceTree = "<group>"; };
 		62CD119D175E3E23008C4D0C /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
 		62CD918F178977B500B2CB55 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		62D85AB2176DAA7200FE5575 /* polipo.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polipo.config; sourceTree = "<group>"; };
 		62D85AB3176DAA7200FE5575 /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
-		62DAB9DF177A11D7003DFFDE /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		62DE795F18B2140D00277174 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 		62E27E5318C1D03D0086033D /* proxy.pac.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = proxy.pac.gz; sourceTree = SOURCE_ROOT; };
 		62E27E5718C1D0CF0086033D /* GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = GZIP/GZIP/GZIP.h; sourceTree = SOURCE_ROOT; };
 		62E27E5818C1D0CF0086033D /* GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIP.m; path = GZIP/GZIP/GZIP.m; sourceTree = SOURCE_ROOT; };
-		62E27E5B18C1D0F80086033D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		62E27E5D18C1D1000086033D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
-		62E2E1981A5AB21E00C9A2E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		62E2E19A1A5AB23700C9A2E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		62E2E19C1A5ABE5C00C9A2E1 /* abp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abp.js; sourceTree = "<group>"; };
 		8F2D1D4D84E83340E70B8DAC /* Pods-libshadowsocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libshadowsocks.release.xcconfig"; path = "Pods/Target Support Files/Pods-libshadowsocks/Pods-libshadowsocks.release.xcconfig"; sourceTree = "<group>"; };
 		96D80C04176CE1D7006C8078 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9CB473FD1DA91B4600FF2719 /* libcorecrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcorecrypto.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/system/libcorecrypto.tbd; sourceTree = DEVELOPER_DIR; };
+		9CB473FF1DA91C3300FF2719 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		9CB474011DA91C5600FF2719 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9CB474031DA91C5F00FF2719 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		9CB474051DA91C6800FF2719 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		9CB474071DA91C7100FF2719 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9CB474091DA91C7A00FF2719 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		9CB4740B1DA91DF300FF2719 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/system/libcommonCrypto.tbd; sourceTree = DEVELOPER_DIR; };
+		9CB4740D1DA91E2D00FF2719 /* CryptoTokenKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoTokenKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CryptoTokenKit.framework; sourceTree = DEVELOPER_DIR; };
+		9CB4740F1DA91E4D00FF2719 /* libk5crypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libk5crypto.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/libk5crypto.tbd; sourceTree = DEVELOPER_DIR; };
+		9CC3FCAF1DAA2B910092F392 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openssl.framework; path = "OpenSSL-for-iPhone/openssl.framework"; sourceTree = "<group>"; };
+		9CC3FCB11DAA42280092F392 /* libPods-ShadowsocksX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ShadowsocksX.a"; path = "../../../Library/Developer/Xcode/DerivedData/shadowsocks-fjdjzkwvrrvitkambyylhcpkjubb/Build/Products/Release/libPods-ShadowsocksX.a"; sourceTree = "<group>"; };
 		A45F1B2F56D59AB1ADC224A4 /* Pods-shadowsocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shadowsocks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shadowsocks/Pods-shadowsocks.debug.xcconfig"; sourceTree = "<group>"; };
-		E40FE8E4738678466BF81CD0 /* libPods-ShadowsocksX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShadowsocksX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA1B34BFE299E380F3180E71 /* libPods-libshadowsocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libshadowsocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB189071407B3A2A9B4C83CB /* ProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileManager.h; sourceTree = "<group>"; };
 		EB1891B68FCBD841C5E461B6 /* About.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = About.md; sourceTree = SOURCE_ROOT; };
 		EB1891FD08E70E9E9DC84AFD /* about.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about.txt; sourceTree = "<group>"; };
@@ -183,7 +175,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				620530A518D4444E00887D3E /* SystemConfiguration.framework in Frameworks */,
 				6205309618D4443E00887D3E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,14 +183,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628C91C61A07B6C800BA1566 /* QuartzCore.framework in Frameworks */,
-				62E27E5E18C1D1000086033D /* libz.dylib in Frameworks */,
-				627A6E3F18B47F5400493BBC /* libcrypto.dylib in Frameworks */,
-				627A6DF918B47E9300493BBC /* Cocoa.framework in Frameworks */,
-				625E5BBE19EA3855007A5124 /* WebKit.framework in Frameworks */,
-				62E2E19B1A5AB23700C9A2E1 /* Security.framework in Frameworks */,
-				62E2E1991A5AB21E00C9A2E1 /* SystemConfiguration.framework in Frameworks */,
-				E59404A643F67542EB34EBC4 /* libPods-ShadowsocksX.a in Frameworks */,
+				9CC3FCB21DAA42280092F392 /* libPods-ShadowsocksX.a in Frameworks */,
+				9CC3FCB01DAA2B910092F392 /* openssl.framework in Frameworks */,
+				9CB4740A1DA91C7A00FF2719 /* SystemConfiguration.framework in Frameworks */,
+				9CB474081DA91C7100FF2719 /* Security.framework in Frameworks */,
+				9CB474061DA91C6800FF2719 /* WebKit.framework in Frameworks */,
+				9CB474041DA91C5F00FF2719 /* Cocoa.framework in Frameworks */,
+				9CB474021DA91C5600FF2719 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,24 +239,23 @@
 		621571A716CF6BCB003D96B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				62E2E19A1A5AB23700C9A2E1 /* Security.framework */,
-				62E2E1981A5AB21E00C9A2E1 /* SystemConfiguration.framework */,
-				628C91C51A07B6C800BA1566 /* QuartzCore.framework */,
-				62E27E5D18C1D1000086033D /* libz.dylib */,
-				62E27E5B18C1D0F80086033D /* libz.dylib */,
-				629AC93F18B49C33001D2771 /* SystemConfiguration.framework */,
-				629AC93D18B49B97001D2771 /* Security.framework */,
-				629AC93B18B49B69001D2771 /* AppKit.framework */,
-				629AC93918B49B56001D2771 /* Cocoa.framework */,
-				627A6E5618B4887000493BBC /* WebKit.framework */,
-				627A6E3E18B47F5400493BBC /* libcrypto.dylib */,
-				627A6E3C18B47F4700493BBC /* libssl.dylib */,
+				9CC3FCB11DAA42280092F392 /* libPods-ShadowsocksX.a */,
+				9CC3FCAF1DAA2B910092F392 /* openssl.framework */,
+				9CB4740F1DA91E4D00FF2719 /* libk5crypto.tbd */,
+				9CB4740D1DA91E2D00FF2719 /* CryptoTokenKit.framework */,
+				9CB4740B1DA91DF300FF2719 /* libcommonCrypto.tbd */,
+				9CB474091DA91C7A00FF2719 /* SystemConfiguration.framework */,
+				9CB474071DA91C7100FF2719 /* Security.framework */,
+				9CB474051DA91C6800FF2719 /* WebKit.framework */,
+				9CB474031DA91C5F00FF2719 /* Cocoa.framework */,
+				9CB474011DA91C5600FF2719 /* QuartzCore.framework */,
+				9CB473FF1DA91C3300FF2719 /* libz.tbd */,
+				9CB473FD1DA91B4600FF2719 /* libcorecrypto.tbd */,
 				6274847318B1FD7900A9CDF0 /* ImageIO.framework */,
 				6274847118B1FD6F00A9CDF0 /* QuartzCore.framework */,
 				6274846F18B1FD6500A9CDF0 /* CoreMedia.framework */,
 				6274846D18B1FD5C00A9CDF0 /* CoreVideo.framework */,
 				62CD918F178977B500B2CB55 /* MessageUI.framework */,
-				62DAB9DF177A11D7003DFFDE /* Crashlytics.framework */,
 				621FCC081760400800411E5F /* CFNetwork.framework */,
 				621FCC061760400400411E5F /* MobileCoreServices.framework */,
 				62597BD2175FA1D00090E8A6 /* libssl.a */,
@@ -276,12 +265,7 @@
 				621571A816CF6BCB003D96B4 /* UIKit.framework */,
 				621571AA16CF6BCB003D96B4 /* Foundation.framework */,
 				621571AC16CF6BCB003D96B4 /* CoreGraphics.framework */,
-				627A6DF818B47E9300493BBC /* Cocoa.framework */,
-				627A6E1718B47E9300493BBC /* XCTest.framework */,
 				627A6DFA18B47E9300493BBC /* Other Frameworks */,
-				E40FE8E4738678466BF81CD0 /* libPods-ShadowsocksX.a */,
-				EA1B34BFE299E380F3180E71 /* libPods-libshadowsocks.a */,
-				12844C978A2DC27AE84AC5C2 /* libPods-shadowsocks.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -472,6 +456,7 @@
 				627A6DF518B47E9300493BBC /* Resources */,
 				B207E778F265136A9E9FAFFF /* [CP] Embed Pods Frameworks */,
 				6A853D84EB83A2E0D68D3452 /* [CP] Copy Pods Resources */,
+				56A288C85FA674232DEBBE61 /* [CP] Copy Framework Resources */,
 			);
 			buildRules = (
 			);
@@ -492,6 +477,12 @@
 				CLASSPREFIX = SWB;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = clowwindy;
+				TargetAttributes = {
+					627A6DF618B47E9300493BBC = {
+						DevelopmentTeam = 54K9795L9X;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 621571A016CF6BCA003D96B4 /* Build configuration list for PBXProject "shadowsocks" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -542,6 +533,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		56A288C85FA674232DEBBE61 /* [CP] Copy Framework Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Framework Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash -l -c \"ruby \\\"${SRCROOT}/Pods/Target Support Files/Pods-ShadowsocksX/copy-framework-resources.rb\\\"\"";
+			showEnvVarsInLog = 0;
+		};
 		6A853D84EB83A2E0D68D3452 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,7 +590,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -810,10 +816,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54K9795L9X;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/OpenSSL-for-iPhone",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -831,7 +840,10 @@
 					"OpenSSL-for-iPhone/include/",
 				);
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
-				LIBRARY_SEARCH_PATHS = "${inherited}";
+				LIBRARY_SEARCH_PATHS = (
+					"${inherited}",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "clowwindy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -848,12 +860,15 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 54K9795L9X;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/OpenSSL-for-iPhone",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -867,7 +882,10 @@
 					"OpenSSL-for-iPhone/include/",
 				);
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
-				LIBRARY_SEARCH_PATHS = "${inherited}";
+				LIBRARY_SEARCH_PATHS = (
+					"${inherited}",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "clowwindy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

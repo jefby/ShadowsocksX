@@ -15,7 +15,7 @@ PODS:
   - GCDWebServer (3.3.2):
     - GCDWebServer/Core (= 3.3.2)
   - GCDWebServer/Core (3.3.2)
-  - libsodium (1.0.3)
+  - libsodium (1.0.11)
   - ZXingObjC (3.1.0):
     - ZXingObjC/All (= 3.1.0)
   - ZXingObjC/All (3.1.0)
@@ -27,11 +27,11 @@ DEPENDENCIES:
   - ZXingObjC (~> 3.1.0)
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  GCDWebServer: 2a375ec42839a41d7187d04e5b688d32fa5c4cd5
-  libsodium: be547e31dc75725629acc5717dc0a40fc05ef243
-  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+  AFNetworking: 0f9f92467cc2ad03ea9961c65bb75028ea4d49a9
+  GCDWebServer: 3a29d3652068de5929e4c47fcb9acf0f8e06920a
+  libsodium: 9aba161d2ee096977ecbdcce1ada69ffe511970c
+  ZXingObjC: d42268f8acf994621ce3d8991430470f43ebd491
 
 PODFILE CHECKSUM: 1f3f8f0c487dac1242d3f5015179e311e8b813e4
 
-COCOAPODS: 1.1.0.beta.1
+COCOAPODS: 1.0.1

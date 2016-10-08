@@ -8,7 +8,8 @@ How to Build
 
 - Install Pods;
 - Update git modules;
-- Open Xcode and build.
+- cd OpenSSL-for-iPhone && run ./build-libssl.sh && create-openssl-framework.sh
+- Open Xcode and add openssl.Framework in Build Phases [Link binary with Libraries], then build
 
 License
 -------
