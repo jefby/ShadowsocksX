@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2324BA6E1D008AE900CAED8D /* SWBApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2324BA6D1D008AE900CAED8D /* SWBApplication.m */; };
-		293285DEADD30C07D71257CE /* libPods-ShadowsocksX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EE7A7EED83FDEA6B485025 /* libPods-ShadowsocksX.a */; };
 		6205309618D4443E00887D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AA16CF6BCB003D96B4 /* Foundation.framework */; };
 		6205309918D4443E00887D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205309818D4443E00887D3E /* main.m */; };
 		620530BA18D44A2700887D3E /* shadowsocks_sysconf in Resources */ = {isa = PBXBuildFile; fileRef = 6205309518D4443E00887D3E /* shadowsocks_sysconf */; };
@@ -39,13 +38,13 @@
 		62E27E5A18C1D0CF0086033D /* GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E27E5818C1D0CF0086033D /* GZIP.m */; };
 		62E27E6418C1F1E30086033D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EB1896EFEA137F75386005D4 /* LICENSE */; };
 		62E2E19D1A5ABE5C00C9A2E1 /* abp.js in Resources */ = {isa = PBXBuildFile; fileRef = 62E2E19C1A5ABE5C00C9A2E1 /* abp.js */; };
-		9C6F557D1DABCFD700D537AE /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3FCAF1DAA2B910092F392 /* openssl.framework */; };
+		9C6F557E1DABE4E500D537AE /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3FCAF1DAA2B910092F392 /* openssl.framework */; };
 		9CB474021DA91C5600FF2719 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474011DA91C5600FF2719 /* QuartzCore.framework */; };
 		9CB474041DA91C5F00FF2719 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474031DA91C5F00FF2719 /* Cocoa.framework */; };
 		9CB474061DA91C6800FF2719 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474051DA91C6800FF2719 /* WebKit.framework */; };
 		9CB474081DA91C7100FF2719 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474071DA91C7100FF2719 /* Security.framework */; };
 		9CB4740A1DA91C7A00FF2719 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB474091DA91C7A00FF2719 /* SystemConfiguration.framework */; };
-		9CC3FCB21DAA42280092F392 /* libPods-ShadowsocksX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3FCB11DAA42280092F392 /* libPods-ShadowsocksX.a */; };
+		CE509033339F97A7C4C7C09D /* libPods-ShadowsocksX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EE7A7EED83FDEA6B485025 /* libPods-ShadowsocksX.a */; };
 		EB18906527B59E4F6A70A14A /* ShadowsocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1897A89055A4C2CFD81AF8 /* ShadowsocksRunner.m */; };
 		EB1897A04CF0382A754FE700 /* SWBConfigWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1895348E32ABA4F4F86742 /* SWBConfigWindowController.m */; };
 		EB1899E6974F61B38B2FFD2C /* ProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1892B5027A6B1F1E2CDC12 /* ProfileManager.m */; };
@@ -185,14 +184,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6F557D1DABCFD700D537AE /* openssl.framework in Frameworks */,
-				9CC3FCB21DAA42280092F392 /* libPods-ShadowsocksX.a in Frameworks */,
+				9C6F557E1DABE4E500D537AE /* openssl.framework in Frameworks */,
 				9CB4740A1DA91C7A00FF2719 /* SystemConfiguration.framework in Frameworks */,
 				9CB474081DA91C7100FF2719 /* Security.framework in Frameworks */,
 				9CB474061DA91C6800FF2719 /* WebKit.framework in Frameworks */,
 				9CB474041DA91C5F00FF2719 /* Cocoa.framework in Frameworks */,
 				9CB474021DA91C5600FF2719 /* QuartzCore.framework in Frameworks */,
-				293285DEADD30C07D71257CE /* libPods-ShadowsocksX.a in Frameworks */,
+				CE509033339F97A7C4C7C09D /* libPods-ShadowsocksX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,3 +1,6 @@
 [submodule "GZIP"]
 	path = GZIP
 	url = https://github.com/nicklockwood/GZIP.git
+[submodule "openssl"]
+	path = OpenSSL-for-iPhone
+	url = https://github.com/jefby/OpenSSL-for-iPhone.git
