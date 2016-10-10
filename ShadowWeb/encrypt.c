@@ -73,7 +73,7 @@ int encryption_method_from_string(const char *name) {
 
 void cipher_update(struct encryption_ctx *ctx, unsigned char *out, size_t *outlen, unsigned char *in, size_t inlen) {
     if (ctx->cipher == CIPHER_OPENSSL) {
-        EVP_CipherUpdate(ctx->ctx, out, (int *) outlen, in, inlen);
+        EVP_CipherUpdate(ctx->ctx, out, (int *) outlen, in, (int)inlen);
     } else if (ctx->cipher == CIPHER_SODIUM) {
         size_t padding = ctx->bytes_remaining;
         memcpy(sodium_buf + padding, in, inlen);
@@ -97,7 +97,7 @@ void encrypt_buf(struct encryption_ctx *ctx, unsigned char *buf, size_t *len) {
         if (ctx->status == STATUS_EMPTY) {
             size_t iv_len = encryption_iv_len[_method];
             memset(ctx->iv, 0, iv_len);
-            RAND_bytes(ctx->iv, iv_len);
+            RAND_bytes(ctx->iv, (int)iv_len);
             init_cipher(ctx, ctx->iv, iv_len, 1);
             size_t out_len = *len + ctx->iv_len;
             unsigned char *cipher_text = malloc(out_len);
@@ -202,7 +202,10 @@ void cleanup_encryption(struct encryption_ctx *ctx) {
 
 void config_encryption(const char *password, const char *method) {
     SSLeay_add_all_algorithms();
-    sodium_init();
+    int res = sodium_init();
+    if (res != 0) {
+        return;
+    }
     _method = encryption_method_from_string(method);
     if (_method == ENCRYPTION_TABLE) {
         get_table((unsigned char *) password);
@@ -212,7 +215,7 @@ void config_encryption(const char *password, const char *method) {
         _key_len = 32;
         unsigned char tmp[EVP_MAX_IV_LENGTH];;
         EVP_BytesToKey(EVP_aes_256_cfb(), EVP_md5(), NULL, (unsigned char *)password,
-                                strlen(password), 1, _key, tmp);
+                                (int)strlen(password), 1, _key, tmp);
         shadowsocks_key = _key;
     } else {
         cipher = CIPHER_OPENSSL;
@@ -228,7 +231,7 @@ void config_encryption(const char *password, const char *method) {
         } else {
             unsigned char tmp[EVP_MAX_IV_LENGTH];
             _key_len = EVP_BytesToKey(_cipher, EVP_md5(), NULL, (unsigned char *)password,
-                                      strlen(password), 1, _key, tmp);
+                                      (int)strlen(password), 1, _key, tmp);
             shadowsocks_key = _key;
         }
 

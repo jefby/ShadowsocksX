@@ -14,7 +14,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 #end
 
 target 'ShadowsocksX' do
-    platform :osx, '10.9'
+    platform :osx, '10.12'
     pod 'libsodium'
     pod 'AFNetworking'
     pod 'GCDWebServer', '3.3.2'

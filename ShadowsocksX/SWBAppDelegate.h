@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface SWBAppDelegate : NSObject <NSApplicationDelegate>
+@interface SWBAppDelegate : NSObject <NSApplicationDelegate,SWBConfigWindowControllerDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 @property (nonatomic, strong) NSStatusItem* item;

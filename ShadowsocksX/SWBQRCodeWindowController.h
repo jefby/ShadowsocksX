@@ -9,9 +9,9 @@
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
 
-@interface SWBQRCodeWindowController : NSWindowController
+@interface SWBQRCodeWindowController : NSWindowController<WebFrameLoadDelegate>
 
-@property (nonatomic, strong) IBOutlet WebView *webView;
+@property (nonatomic, weak) IBOutlet WebView *webView;
 @property (nonatomic, copy) NSString *qrCode;
 
 @end

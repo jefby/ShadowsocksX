@@ -635,14 +635,14 @@ void onPACChange(
     [alert addButtonWithTitle:_L(Cancel)];
     [alert setMessageText:_L(Use this server?)];
     [alert setInformativeText:url];
-    [alert setAlertStyle:NSInformationalAlertStyle];
+    [alert setAlertStyle:NSAlertStyleInformational];
     if ([alert runModal] == NSAlertFirstButtonReturn) {
         BOOL result = [ShadowsocksRunner openSSURL:[NSURL URLWithString:url]];
         if (!result) {
             alert = [[NSAlert alloc] init];
             [alert addButtonWithTitle:_L(OK)];
             [alert setMessageText:@"Invalid Shadowsocks URL"];
-            [alert setAlertStyle:NSCriticalAlertStyle];
+            [alert setAlertStyle:NSAlertStyleCritical];
             [alert runModal];
         }
     }
