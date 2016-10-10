@@ -671,7 +671,8 @@ void onPACChange(
 - (void)copyShellExportCommandToClipboard {
     NSPasteboard *pasteBoard = [NSPasteboard generalPasteboard];
     [pasteBoard declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:nil];
-    NSString *enableVPN = @"export http_proxy=http://127.0.0.1:8090;export https_proxy=https://127.0.0.1:8090";
+//    NSString *enableVPN = @"export http_proxy=http://127.0.0.1:8090;export https_proxy=https://127.0.0.1:8090";
+    NSString *enableVPN = @"export http_proxy=http://127.0.0.1:8090";
     [pasteBoard setString:enableVPN forType:NSStringPboardType];
 }
 
