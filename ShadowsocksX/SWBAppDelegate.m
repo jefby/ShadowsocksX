@@ -31,6 +31,7 @@
     NSMenuItem *autoMenuItem;
     NSMenuItem *globalMenuItem;
     NSMenuItem *qrCodeMenuItem;
+    NSMenuItem *copyShellExportMenuItem;
     NSMenuItem *aboutMenuItem;
     NSMenu *serversMenu;
     BOOL isRunning;
@@ -84,7 +85,8 @@ static SWBAppDelegate *appDelegate;
     globalMenuItem = [[NSMenuItem alloc] initWithTitle:_L(Global Mode) action:@selector(enableGlobal)
         keyEquivalent:@""];
     aboutMenuItem = [[NSMenuItem alloc] initWithTitle:_L(About) action:@selector(showAbout) keyEquivalent:@""];
-    
+    copyShellExportMenuItem = [[NSMenuItem alloc] initWithTitle:_L(Copy Shell Export Terminal) action:@selector(copyShellExportCommandToClipboard) keyEquivalent:@""];
+
     [menu addItem:statusMenuItem];
     [menu addItem:enableMenuItem];
     [menu addItem:[NSMenuItem separatorItem]];
@@ -103,9 +105,11 @@ static SWBAppDelegate *appDelegate;
     [menu addItemWithTitle:_L(Edit PAC for Auto Proxy Mode...) action:@selector(editPAC) keyEquivalent:@""];
     [menu addItemWithTitle:_L(Update PAC from GFWList) action:@selector(updatePACFromGFWList) keyEquivalent:@""];
     [menu addItemWithTitle:_L(Edit User Rule for GFWList...) action:@selector(editUserRule) keyEquivalent:@""];
+    [menu addItem:copyShellExportMenuItem];
     [menu addItem:[NSMenuItem separatorItem]];
     qrCodeMenuItem = [[NSMenuItem alloc] initWithTitle:_L(Generate QR Code...) action:@selector(showQRCode) keyEquivalent:@""];
     [menu addItem:qrCodeMenuItem];
+
     [menu addItem:[[NSMenuItem alloc] initWithTitle:_L(Scan QR Code from Screen...) action:@selector(scanQRCode) keyEquivalent:@""]];
     [menu addItem:[NSMenuItem separatorItem]];
     [menu addItemWithTitle:_L(Show Logs...) action:@selector(showLogs) keyEquivalent:@""];
@@ -662,6 +666,13 @@ void onPACChange(
     [alert setInformativeText:fullVersion];
     [alert setAlertStyle:NSAlertStyleInformational];
     [alert runModal];
+}
+
+- (void)copyShellExportCommandToClipboard {
+    NSPasteboard *pasteBoard = [NSPasteboard generalPasteboard];
+    [pasteBoard declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:nil];
+    NSString *enableVPN = @"export http_proxy=http://127.0.0.1:8090;export https_proxy=https://127.0.0.1:8090";
+    [pasteBoard setString:enableVPN forType:NSStringPboardType];
 }
 
 @end

@@ -62,3 +62,4 @@
 "Update PAC from GFWList" = "从 GFWList 更新 PAC";
 "Invalid QR Code" = "无效的二维码";
 "No QR Code Found" = "没有找到二维码";
+"Copy Shell Export Terminal" = "为 Terminal 拷贝代理配置";

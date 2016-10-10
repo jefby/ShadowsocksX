@@ -74,13 +74,7 @@
 		621571A816CF6BCB003D96B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		621571AA16CF6BCB003D96B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		621571AC16CF6BCB003D96B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		621571B016CF6BCB003D96B4 /* shadowsocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shadowsocks-Info.plist"; sourceTree = "<group>"; };
 		621571B216CF6BCB003D96B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		621571B416CF6BCB003D96B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		621571B616CF6BCB003D96B4 /* shadowsocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shadowsocks-Prefix.pch"; sourceTree = "<group>"; };
-		621571BA16CF6BCB003D96B4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		621571BC16CF6BCB003D96B4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		621571BE16CF6BCB003D96B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		621FCC061760400400411E5F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		621FCC081760400800411E5F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		622BE4E418B7307200F22683 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
@@ -133,9 +127,6 @@
 		62CD119B175E3E17008C4D0C /* table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = table.m; sourceTree = "<group>"; };
 		62CD119D175E3E23008C4D0C /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
 		62CD918F178977B500B2CB55 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		62D85AB2176DAA7200FE5575 /* polipo.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polipo.config; sourceTree = "<group>"; };
-		62D85AB3176DAA7200FE5575 /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
-		62DE795F18B2140D00277174 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 		62E27E5318C1D03D0086033D /* proxy.pac.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = proxy.pac.gz; sourceTree = SOURCE_ROOT; };
 		62E27E5718C1D0CF0086033D /* GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = GZIP/GZIP/GZIP.h; sourceTree = SOURCE_ROOT; };
 		62E27E5818C1D0CF0086033D /* GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIP.m; path = GZIP/GZIP/GZIP.m; sourceTree = SOURCE_ROOT; };
@@ -162,11 +153,8 @@
 		EB1895348E32ABA4F4F86742 /* SWBConfigWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBConfigWindowController.m; sourceTree = "<group>"; };
 		EB1896EFEA137F75386005D4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		EB1897A89055A4C2CFD81AF8 /* ShadowsocksRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksRunner.m; sourceTree = "<group>"; };
-		EB1897A8F80969EC7477F89D /* 3gnet_enable.mobileconfig */ = {isa = PBXFileReference; lastKnownFileType = file.mobileconfig; path = 3gnet_enable.mobileconfig; sourceTree = "<group>"; };
-		EB1897AD03717EB5E44BA24B /* 3gnet_disable.mobileconfig */ = {isa = PBXFileReference; lastKnownFileType = file.mobileconfig; path = 3gnet_disable.mobileconfig; sourceTree = "<group>"; };
 		EB189E412781A71BA967EECE /* ShadowsocksRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsocksRunner.h; sourceTree = "<group>"; };
 		EB189F12BEB086705288D293 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = SOURCE_ROOT; };
-		EB189F29205BA2AB998B867D /* polipo_disable.config */ = {isa = PBXFileReference; lastKnownFileType = file.config; path = polipo_disable.config; sourceTree = "<group>"; };
 		EB189F33A120A109D84FF977 /* SWBConfigWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBConfigWindowController.h; sourceTree = "<group>"; };
 		ED4C5F3FC4EA8D51464A9257 /* Pods-shadowsocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shadowsocks.release.xcconfig"; path = "Pods/Target Support Files/Pods-shadowsocks/Pods-shadowsocks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -286,19 +274,7 @@
 		621571AF16CF6BCB003D96B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				62DE795F18B2140D00277174 /* cancel.png */,
-				62D85AB2176DAA7200FE5575 /* polipo.config */,
-				62D85AB3176DAA7200FE5575 /* silence.wav */,
-				621571B016CF6BCB003D96B4 /* shadowsocks-Info.plist */,
 				621571B116CF6BCB003D96B4 /* InfoPlist.strings */,
-				621571B416CF6BCB003D96B4 /* main.m */,
-				621571B616CF6BCB003D96B4 /* shadowsocks-Prefix.pch */,
-				621571BA16CF6BCB003D96B4 /* Default.png */,
-				621571BC16CF6BCB003D96B4 /* Default@2x.png */,
-				621571BE16CF6BCB003D96B4 /* Default-568h@2x.png */,
-				EB1897A8F80969EC7477F89D /* 3gnet_enable.mobileconfig */,
-				EB1897AD03717EB5E44BA24B /* 3gnet_disable.mobileconfig */,
-				EB189F29205BA2AB998B867D /* polipo_disable.config */,
 				628C3DE118AD5AFA0090632A /* Localizable.strings */,
 				EB189F12BEB086705288D293 /* README.md */,
 				EB1891B68FCBD841C5E461B6 /* About.md */,

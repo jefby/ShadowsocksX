@@ -31,12 +31,13 @@
 			<string>shadowsocks</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
+				<string>ShadowsocksX/SWBAppDelegate.m</string>
 				<string>ss</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>100</string>
+	<string>101</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
