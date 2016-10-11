@@ -86,6 +86,9 @@ static SWBAppDelegate *appDelegate;
         keyEquivalent:@""];
     aboutMenuItem = [[NSMenuItem alloc] initWithTitle:_L(About) action:@selector(showAbout) keyEquivalent:@""];
     copyShellExportMenuItem = [[NSMenuItem alloc] initWithTitle:_L(Copy Shell Export Terminal) action:@selector(copyShellExportCommandToClipboard) keyEquivalent:@""];
+    
+    [menu addItem:aboutMenuItem];
+    [menu addItem:[NSMenuItem separatorItem]];
 
     [menu addItem:statusMenuItem];
     [menu addItem:enableMenuItem];
@@ -115,7 +118,6 @@ static SWBAppDelegate *appDelegate;
     [menu addItemWithTitle:_L(Show Logs...) action:@selector(showLogs) keyEquivalent:@""];
     [menu addItemWithTitle:_L(Help) action:@selector(showHelp) keyEquivalent:@""];
     [menu addItem:[NSMenuItem separatorItem]];
-    [menu addItem:aboutMenuItem];
     [menu addItemWithTitle:_L(Quit) action:@selector(exit) keyEquivalent:@""];
     self.item.menu = menu;
     [self installHelper];
@@ -659,7 +661,7 @@ void onPACChange(
     NSAlert *alert = [[NSAlert alloc] init];
     [alert addButtonWithTitle:@"OK"];
     [alert addButtonWithTitle:@"Cancel"];
-    [alert setMessageText:@"macOS ShadowsocksX"];
+    [alert setMessageText:@"About ShadowsocksX"];
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *build = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey];
     NSString *fullVersion = [NSString stringWithFormat:@"Version: %@-%@",version,build];
