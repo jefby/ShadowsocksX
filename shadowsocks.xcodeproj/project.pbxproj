@@ -822,7 +822,7 @@
 					"${inherited}",
 					"$(SDKROOT)/usr/lib/system",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jefby.ShadowsocksX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -864,7 +864,7 @@
 					"${inherited}",
 					"$(SDKROOT)/usr/lib/system",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jefby.ShadowsocksX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
